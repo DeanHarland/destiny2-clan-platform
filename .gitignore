@@ -1,6 +1,49 @@
+# Virtual environments
+.venv/
 venv/
+env/
+ENV/
+
+# Python cache/bytecode
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+
+# Environment/config
 .env
+.env.*
+!.env.example
+env.py
+
+# Local database/files
 db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# Packaging/build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Test and coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Type check/lint caches
+.mypy_cache/
+.ruff_cache/
+
+# Logs
+*.log
+
+# IDE/editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
 
