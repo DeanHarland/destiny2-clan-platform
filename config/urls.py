@@ -16,6 +16,8 @@ urlpatterns = [
 
     # accounts handles everything
     path('accounts/', include('accounts.urls')),
+    # Clans
+    path('clans/', include('clans.urls')),
 ]
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
